@@ -42,7 +42,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #1bbd36;
+  background: #facb2b;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -66,11 +66,24 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Disable AOS delay on mobile
+Mobile Responsive
 --------------------------------------------------------------*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
+  }
+
+  /* .header-social-links {
+    padding: 0 15px 0 0;
+    border-left: 0;
+  } */
+
+  #header h1 {
+    display: none;
+  }
+
+  #breadcrumbs .container {
+    display: none;
   }
 }
 
@@ -129,13 +142,6 @@ h6 {
 
 .header-social-links a:hover {
   color: #1bbd36;
-}
-
-@media (max-width: 768px) {
-  .header-social-links {
-    padding: 0 15px 0 0;
-    border-left: 0;
-  }
 }
 
 /*--------------------------------------------------------------
