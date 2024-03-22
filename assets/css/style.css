@@ -85,6 +85,11 @@ Mobile Responsive
   #breadcrumbs .container {
     display: none;
   }
+
+  #pricing .box {
+    max-height: 300px;
+    overflow-y: auto;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1173,11 +1178,12 @@ section {
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
   border-radius: 5px;
   position: relative;
-  overflow: hidden;
+  max-height: 500px;
+  overflow: auto;
 }
 
 .pricing h3 {
-  font-weight: 400;
+  font-weight: bolder;
   margin: -20px -20px 20px -20px;
   padding: 20px 15px;
   font-size: 16px;
@@ -1186,12 +1192,13 @@ section {
   background: #f8f8f8;
 }
 
-.pricing h4 {
-  font-size: 36px;
-  color: #1bbd36;
-  font-weight: 600;
+.pricing h5 {
+  font-size: 25px;
+  color: #373435;
+  font-weight: bold;
   font-family: "Poppins", sans-serif;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .pricing h4 sup {
@@ -1208,11 +1215,15 @@ section {
 
 .pricing ul {
   padding: 0;
-  list-style: none;
-  color: #4d4643;
-  text-align: center;
+  list-style: square;
+  color: #373435;
+  text-align: left;
   line-height: 20px;
   font-size: 14px;
+}
+
+.pricing .price {
+  float: right;
 }
 
 .pricing ul li {
@@ -1238,7 +1249,7 @@ section {
 }
 
 .pricing .btn-buy {
-  background: #1bbd36;
+  background: #f58634;
   display: inline-block;
   padding: 8px 35px 10px 35px;
   border-radius: 4px;
@@ -1257,7 +1268,7 @@ section {
 
 .pricing .featured h3 {
   color: #fff;
-  background: #1bbd36;
+  background: #f58634;
 }
 
 .pricing .advanced {
