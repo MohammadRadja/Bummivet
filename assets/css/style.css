@@ -419,6 +419,29 @@ Mobile Responsive
   font-weight: 700;
 }
 
+#hero .btn-get-emergency {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 4px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 10px;
+  color: #fff;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  border: 2px solid #ff0000;
+}
+
+#hero .btn-get-emergency:hover {
+  background: #ff0000;
+  color: #fff;
+  text-decoration: none;
+}
+
 #hero .btn-get-started {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -433,15 +456,14 @@ Mobile Responsive
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #1bbd36;
+  border: 2px solid #ff0000;
 }
 
 #hero .btn-get-started:hover {
-  background: #1bbd36;
+  background: #ff0000;
   color: #fff;
   text-decoration: none;
 }
-
 #hero .carousel-inner .carousel-item {
   transition-property: opacity;
   background-position: center top;
