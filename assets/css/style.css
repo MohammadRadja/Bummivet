@@ -72,11 +72,22 @@ Mobile Responsive
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
-
   /* .header-social-links {
     padding: 0 15px 0 0;
     border-left: 0;
   } */
+
+  #portfolio .container {
+    margin-top: 2rem;
+  }
+
+  #about-us .container {
+    margin-top: 2rem;
+  }
+
+  #pricing .container {
+    margin-top: 2rem;
+  }
 
   #header h1 {
     display: none;
@@ -89,6 +100,26 @@ Mobile Responsive
   #pricing .box {
     max-height: 300px;
     overflow-y: auto;
+  }
+
+  .footer-pages-links {
+    display: none;
+  }
+  .footer-services-links {
+    display: none;
+  }
+
+  .footer-media-links {
+    display: none;
+  }
+
+  .portfolio-item iframe {
+    width: 375px;
+    height: 667px;
+  }
+
+  .breadcrumbs {
+    display: none;
   }
 }
 
@@ -821,6 +852,7 @@ section {
 }
 
 .portfolio .portfolio-item {
+  position: relative;
   margin-bottom: 30px;
 }
 
