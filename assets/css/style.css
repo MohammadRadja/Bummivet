@@ -14,12 +14,12 @@ body {
 }
 
 a {
-  color: #1bbd36;
+  color: #f58634;
   text-decoration: none;
 }
 
 a:hover {
-  color: #2ae149;
+  color: #f58634;
   text-decoration: none;
 }
 
@@ -792,7 +792,7 @@ section {
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #1bbd36;
+  background: #facb2b;
 }
 
 .portfolio #portfolio-flters li:last-child {
