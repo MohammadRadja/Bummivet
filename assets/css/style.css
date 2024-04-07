@@ -1212,7 +1212,7 @@ section {
 }
 
 /* Pricing Box in home */
-/* .pricing .box-front {
+.pricing .box-front {
   padding: 20px;
   background: #fff;
   text-align: center;
@@ -1221,7 +1221,7 @@ section {
   position: relative;
   max-height: 300px;
   overflow: auto;
-} */
+}
 
 .pricing .box {
   padding: 20px;
