@@ -83,7 +83,7 @@ Mobile Responsive
 
   /*Home */
   #hero .carousel-inner .carousel-item {
-    background-position: center;
+    background-position: right;
     background-size: cover;
   }
 
