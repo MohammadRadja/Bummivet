@@ -10,7 +10,6 @@
 
     <!-- Favicons -->
     <link href="assets/img/Logo.webp" rel="icon" />
-    <link href="assets/img/Logo.webp" rel="Logo" />
 
     <!-- Google Fonts -->
     <link
@@ -84,12 +83,12 @@
         class="carousel slide carousel-fade"
         data-bs-ride="carousel"
       >
-        <div class="carousel-inner" role="listbox">
+        <div class="carousel-inner" >
           <!-- Slide 1 -->
           <div
             class="carousel-item active"
-            style="background-image: url(assets/img/slide/slide-1.webp)"
-            role="option"
+            style="background-image: url('assets/img/slide/slide-1.webp')"
+            loading="lazy"
           >
             <div class="carousel-container">
               <div class="carousel-content animate__animated animate__fadeInUp">
@@ -109,7 +108,7 @@
           <div
             class="carousel-item img-fluid"
             style="background-image: url(assets/img/slide/slide-2.webp)"
-            role="option"
+            loading="lazy"
           >
             <div class="carousel-container">
               <div class="carousel-content animate__animated animate__fadeInUp">
@@ -128,7 +127,7 @@
           <div
             class="carousel-item"
             style="background-image: url(assets/img/slide/slide-3.webp)"
-            role="option"
+            loading="lazy"
           >
             <div class="carousel-container">
               <div class="carousel-content animate__animated animate__fadeInUp">
@@ -148,8 +147,9 @@
         <a
           class="carousel-control-prev"
           href="#heroCarousel"
-          role="button"
+          aria-label="ButtonPrev"
           data-bs-slide="prev"
+          loading="lazy"
         >
           <span
             class="carousel-control-prev-icon bi bi-chevron-left"
@@ -160,8 +160,9 @@
         <a
           class="carousel-control-next"
           href="#heroCarousel"
-          role="button"
+          aria-label="ButtonNext"
           data-bs-slide="next"
+          loading="lazy"
         >
           <span
             class="carousel-control-next-icon bi bi-chevron-right"
@@ -227,7 +228,7 @@
       <section id="services" class="services section-bg">
         <div class="container" data-aos="fade-up">
           <div class="sec-content text-center mb-5">
-            <h6 class="sec-sub-title">Our Veterinary Services</h6>
+            <p class="sec-sub-title">Our Veterinary Services</p>
             <h2 class="sec-title">Explore Our Offerings</h2>
           </div>
           <div class="row">
@@ -415,7 +416,7 @@
       <section id="portfolio" class="portfolio">
         <div class="container">
           <div class="sec-content text-center mb-5">
-            <h6 class="sec-sub-title">Gallery Updates</h6>
+            <p class="sec-sub-title">Gallery Updates</p>
             <h2 class="sec-title">Latest Gallery Updates</h2>
           </div>
           <div class="row" data-aos="fade-up">
@@ -445,7 +446,7 @@
                   data-gallery="portfolioGallery"
                   class="portfolio-lightbox preview-link"
                   title="Tampak Depan Dari Dekat"
-                  loadin="lazy"
+                  loading="lazy"
                   ><i class="bx bx-zoom-in"></i>
                 </a>
               </div>
@@ -581,7 +582,7 @@
       <section id="pricing" class="pricing">
         <div class="container" data-aos="fade-up">
           <div class="sec-content text-center mb-5">
-            <h6 class="sec-sub-title">Our Pricing</h6>
+            <p class="sec-sub-title">Our Pricing</p>
             <h2 class="sec-title">Find the Right Plan</h2>
           </div>
           <div class="row">
@@ -897,7 +898,7 @@
 
       <!-- Contact Section Start -->
       <div class="sec-content text-center mb-5">
-        <h6 class="sec-sub-title">Contact Us</h6>
+        <p class="sec-sub-title">Contact Us</p>
         <h2 class="sec-title">Get in Touch</h2>
       </div>
       <div class="map-section">
@@ -1066,7 +1067,6 @@
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
     <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
     <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
 
