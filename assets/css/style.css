@@ -116,7 +116,14 @@ Mobile Responsive
 
   #pricing .box {
     max-height: 300px;
-    overflow-y: auto;
+    overflow-y: hidden;
+    border-radius: 20px;
+  }
+
+  .pricing .featured img {
+    width: 100%;
+    border-radius: 20px;
+    height: fit-content;
   }
 
   /* Contact Mobile */
@@ -1233,14 +1240,21 @@ section {
 }
 
 .pricing .box {
-  padding: 20px;
+  /* padding: 20px; */
+  padding: 5px;
   background: #fff;
   text-align: center;
-  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
-  border-radius: 5px;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 25px;
   position: relative;
   max-height: 500px;
-  overflow: auto;
+  overflow: hidden;
+}
+
+.pricing .featured img {
+  width: 100%;
+  height: fit-content;
+  border-radius: 25px;
 }
 
 .pricing h3 {
